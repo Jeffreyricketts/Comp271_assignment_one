@@ -9,14 +9,12 @@ public class MergeSortPriorityQueueTest {
     @Test
     public void getsMinimum() {
 
-        PriorityQueue priorityQueue = new MergeSortPriorityQueue(4,2,1,6,5,3,7,8,9,10,21,22,23,24,25,26,27,28,29,
+        PriorityQueue priorityQueue = new MergeSortPriorityQueue(51,2,1,6,5,52,7,8,9,10,21,22,23,24,25,26,27,28,29,
                                                                           40,41,42,43,44,45,46,47,48,49,50,30,32,3,33,34,
                                                                            35,36,37,38,39,20,19,18,17,16,15,14,13,11,12);
 
         assertEquals(1, priorityQueue.removeMin());
         assertEquals(2, priorityQueue.removeMin());
-        assertEquals(3, priorityQueue.removeMin());
-        assertEquals(4, priorityQueue.removeMin());
         assertEquals(5, priorityQueue.removeMin());
         assertEquals(6, priorityQueue.removeMin());
         assertEquals(7, priorityQueue.removeMin());
@@ -63,6 +61,8 @@ public class MergeSortPriorityQueueTest {
         assertEquals(48, priorityQueue.removeMin());
         assertEquals(49, priorityQueue.removeMin());
         assertEquals(50, priorityQueue.removeMin());
+        assertEquals(51, priorityQueue.removeMin());
+        assertEquals(52, priorityQueue.removeMin());
 
     }
 }
