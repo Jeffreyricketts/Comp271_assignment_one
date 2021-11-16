@@ -1,5 +1,7 @@
 # Comp271_assignment_one
 
+This project was created to compare the runtime profiles between three different algorithms; Merged Sort, Quick Sort and Selection Sort.
+
 Runtime for Sorts:
 
 Merged Sort Runtime:
