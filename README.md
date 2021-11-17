@@ -16,7 +16,7 @@ Merged Sort is a O(N log N) runtime as the list is divided by half, based on the
 
 ![image](https://user-images.githubusercontent.com/54014269/142137275-f8c9211b-d57e-4522-b198-fa3db1b919d4.png)
 
-:::
+:::      :::     :::
 
 Quick Sort Runtime:
 
@@ -30,7 +30,7 @@ Quick Sort is also a O(N log N) runtime. This is because it also has to divide t
 
 ![image](https://user-images.githubusercontent.com/54014269/142137695-31d8b6b9-c5a2-4ce4-b186-dae318e884fa.png)
 
-:::
+:::       :::     :::
 
 Selection Sort Runtime:
 
